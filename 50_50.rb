@@ -1,21 +1,3 @@
-def making_random_numbers(tickets)
-  arr = []
-  counter = 0
-  until counter == tickets
-    arr << rand(1000..9999).to_s
-    counter += 1
-  end
-  arr
-end
-
-def random_winning_numbers
-  arr = []
-  10.times do
-    arr << rand(1000..9999).to_s
-  end
-  arr
-end
-
 def how_many_match(my_numbers, winners)
   win_arr = []
   counter = 0
